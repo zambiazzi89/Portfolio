@@ -26,7 +26,7 @@ export default async function sendEmail(
   const resend = new Resend(process.env.RESEND_API_KEY)
 
   try {
-    const data = await resend.emails.send({
+    await resend.emails.send({
       from: 'Gotham Lights <noreply@gothamlights.com>',
       to: ['zambiazzi89@gmail.com'],
       subject: 'Contact form submission',

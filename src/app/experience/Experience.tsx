@@ -53,7 +53,7 @@ export default function Experience() {
         <CardContent className="flex flex-col gap-10">
           {experiences.map((exp, i) => {
             return (
-              <div className="flex flex-col gap-2">
+              <div key={i} className="flex flex-col gap-2">
                 <div className="text-lg lg:text-xl font-bold">
                   {exp.jobTitle}
                 </div>

@@ -10,7 +10,6 @@ import {
 import { MdMenu } from 'react-icons/md'
 import { Croissant_One } from 'next/font/google'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import NavbarSection from './NavbarSection'
 
 const pages = [
   { title: 'About', href: '#About' },

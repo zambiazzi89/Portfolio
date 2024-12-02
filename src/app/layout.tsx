@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import { arefRuqaaInk, cormorant, lexend } from './fonts'
+import { lexend } from './fonts'
 
 export const metadata: Metadata = {
   title: 'Diego Bez Zambiazzi - Porfolio',
