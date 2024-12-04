@@ -14,6 +14,7 @@ export default {
         aref: ['var(--font-arefRuqaaInk)', ...fontFamily.serif],
         croissant: ['var(--font-croissantOne)', ...fontFamily.serif],
         cormorant: ['var(--font-cormorant)', ...fontFamily.serif],
+        lexend: ['var(--font-lexend)', ...fontFamily.sans],
       },
       colors: {
         background: 'hsl(var(--background))',
